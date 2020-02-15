@@ -3,13 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
-    "next": "9.2.1",
-    "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "fibers": "^4.0.2",
+    "marked": "^0.8.0",
+    "next": "^9.2.1",
+    "next-routes": "^1.4.2",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sass": "^1.25.0",
+    "storyblok-js-client": "^2.0.12",
+    "storyblok-react": "0.0.10"
   }
 }
