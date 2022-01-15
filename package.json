@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "fibers": "^4.0.2",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "next": "^9.2.1",
     "next-routes": "^1.4.2",
     "node-sass": "^4.13.1",
